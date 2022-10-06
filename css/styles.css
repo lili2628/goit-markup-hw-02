@@ -27,7 +27,7 @@ body{
     line-height: 1.19;
 }
 
-.header .logo{
+.top .logo{
     color: #000000;  
 }
 
@@ -89,14 +89,14 @@ body{
     text-transform: uppercase;
 }
 
-.button{
+.buttons{
     font-family: inherit;
     font-size: 16px;
     letter-spacing: 0.03em;
     text-align: center;
 }
 
-.hero .button{
+.hero .buttons{
     color: var(--white-color);
     background-color: var(--accent-color);
     font-weight: 700;
@@ -154,15 +154,15 @@ body{
 
 /*additional portfolio styles*/
 
-.menu-list .button {
+.menu-list .buttons {
     color: var(--additional-page-color);
     background-color: #F5F4FA;
     font-weight: 500;
     line-height: 1.62;
 }
 
-.menu-list .button:hover,
-.menu-list .button:focus {
+.menu-list .buttons:hover,
+.menu-list .buttons:focus {
     color: var(--white-color);
     background-color: var(--accent-color);
 }
@@ -185,12 +185,12 @@ body{
 
 /*footer style*/
 
-.footer,
-.footer .logo{
+.bottom,
+.bottom .logo{
     color:var(--white-color);
 }
 
-.address{
+.connection{
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
