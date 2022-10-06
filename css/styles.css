@@ -94,6 +94,7 @@ body{
     font-size: 16px;
     letter-spacing: 0.03em;
     text-align: center;
+    cursor: pointer;
 }
 
 .hero .buttons{
@@ -118,7 +119,7 @@ body{
     text-transform: uppercase;
 }
 
-.features p{
+.features-text{
     font-size: 14px;
     line-height: 1.71;
 }
@@ -147,7 +148,7 @@ body{
     text-align: center;
 }
 
-.team-member>p{
+.team-position{
     line-height: 1.19;
     text-align: center;
 }
@@ -172,14 +173,14 @@ body{
     color:inherit;
 }
 
-.example-item>h2{
+.example-type{
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
 }
 
-.example-item>p{
+.example-result{
     line-height: 1.88;
 }
 
@@ -200,4 +201,9 @@ body{
 .contact-link {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-link:hover,
+.contact-link:focus{
+    color: var(--accent-color);
 }
