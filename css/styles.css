@@ -3,13 +3,14 @@
     --additional-page-color: #212121;
     --accent-color: #2196F3;
     --white-color: #ffffff;
-
 }
 
 body{
     background-color: var(--white-color);
-    font-family: 'Roboto', 'Verdana', 'Tahoma', sans-serif;
     color: var(--page-main-color);
+    font-family: 'Roboto', 'Verdana', 'Tahoma', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.03em;
 }
 
 .list{
@@ -24,7 +25,6 @@ body{
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
 }
 
 .header .logo{
@@ -35,13 +35,16 @@ body{
     color: var(--accent-color);
 }
 
-.site-nav .link{
-    color: var(--additional-page-color);
+.link {
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+}
+
+.site-nav .link {
+    color: var(--additional-page-color);
 }
 
 .site-nav .link:hover,
@@ -54,17 +57,12 @@ body{
     text-decoration: none;
 }
 
-.contacts-link {
-    text-decoration: none;
+.contacts .link {
     color: var(--page-main-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
 }
 
-.contacts-link:hover,
-.contacts-link:focus {
+.contacts .link:hover,
+.contacts .link:focus {
     color: var(--accent-color);
 }
 
@@ -78,7 +76,7 @@ body{
     color:var(--white-color);
 }
 
-.bg-color-dark{
+.bgcolor-dark{
     background-color: #2F303A;
 }
 
@@ -92,16 +90,20 @@ body{
 }
 
 .button{
+    font-family: inherit;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.hero .button{
     color: var(--white-color);
     background-color: var(--accent-color);
-    font-family: inherit;
     font-weight: 700;
-    font-size: 16px;
     line-height: 1.88;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
+    align-items: center;   
 }
+
 /*other sections*/
 
 .title-color
@@ -113,14 +115,12 @@ body{
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .features p{
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
 }
 
 .activities-title,
@@ -129,7 +129,6 @@ body{
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 .bg-color{
@@ -146,31 +145,24 @@ body{
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 .team-member>p{
-    font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 /*additional portfolio styles*/
 
-.portfolio-button {
+.menu-list .button {
     color: var(--additional-page-color);
     background-color: #F5F4FA;
-    font-family: inherit;
     font-weight: 500;
-    font-size: 16px;
     line-height: 1.62;
-    text-align: center;
-    letter-spacing: 0.03em;
 }
 
-.portfolio-button:hover,
-.portfolio-button:focus {
+.menu-list .button:hover,
+.menu-list .button:focus {
     color: var(--white-color);
     background-color: var(--accent-color);
 }
@@ -188,9 +180,7 @@ body{
 }
 
 .example-item>p{
-    font-size: 16px;
     line-height: 1.88;
-    letter-spacing: 0.03em;
 }
 
 /*footer style*/
@@ -201,10 +191,10 @@ body{
 }
 
 .address{
-    font-style:normal;
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
+
 }
 
 .contact-link {
